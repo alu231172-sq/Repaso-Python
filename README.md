@@ -47,3 +47,40 @@ Official Python Tutorial
 W3Schools Python Tutorial
 Real Python
 If you want specific examples, exercises, or help with a particular topic in Python, let me know!
+
+Python Loops syntaxis
+Certainly! In Python, a "cycle" is commonly referred to as a "loop." There are two primary types of loops in Python: for loops and while loops.
+
+1. For Loop
+A for loop is commonly used to iterate a specific number of times, or over elements in a collection (like a list or a range).
+
+Syntax:
+
+Python
+for variable in iterable:
+    # Code to execute in each iteration
+Example:
+
+Python
+for i in range(5):
+    print(i)
+This will print numbers 0 to 4 (five iterations).
+
+2. While Loop
+A while loop continues to execute as long as a condition is True.
+
+Syntax:
+
+Python
+while condition:
+    # Code to execute in each iteration
+Example:
+
+Python
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+This also prints numbers 0 to 4.
+
+If you need an example for a specific use case or want to see how to break or continue in a loop, let me know!
